@@ -1,0 +1,40 @@
+
+
+@CHARSET "ISO-8859-1";
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:00;
+   width:10%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+	body{font-family: 'Raleway', sans-serif;}
+	.container{padding:40px 0}
+	.welcomeMsg{padding:0}
+	h1{margin-top:0; color:#ff4500}
+	.rlinks{padding-top:10px}
+	.toplist a{margin-top:10px;}
+	.fline{margin:30px 0}
+	.loginbox{max-width:300px; text-align:left;}
+	.forgot{display:block; text-align:right; margin:5px 0 10px}
+	.signup{margin-top:20px}.signup .btn-link{padding:0; margin-top:-2px}
